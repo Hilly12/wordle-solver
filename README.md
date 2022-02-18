@@ -15,6 +15,11 @@ For additional options
 python wordle.py -h
 ```
 
+Run from anywhere
+```
+git clone https://github.com/Hilly12/wordle-solver.git && cd wordle-solver && python wordle.py && cd .. && rm -rf wordle-solver
+```
+
 Dependencies
 ```
 numpy
