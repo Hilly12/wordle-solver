@@ -1,5 +1,21 @@
 ## Wordle Solver
 
+For direct usage
 ```
-python solver.py --words "crane" "quake" --colours "**g*g" "**ggg"
+python wordle.py -w "crane" "quake" -c "**g*g" "**ggg"
+```
+
+For interactive usage
+```
+python wordle.py
+```
+
+For additional options
+```
+python wordle.py -h
+```
+
+Dependencies
+```
+numpy
 ```
